@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div id="title">
+        <p>API Study</p>
+        <h1>Pokémon Finder</h1>
+      </div>
+
+      <input type="text" id="pokemonName" placeholder="Enter Pokemon name!" />
+      <button onclick="fetchInfo()">Search Pokémon</button><br />
+
+      <img
+        src=""
+        alt="Pokemon Sprite"
+        id="pokemonSprite"
+        style="display: none"
+      />
+      <div id="missingPokemon">
+        <p>Unable to find this pokemon :/</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

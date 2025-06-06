@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  font-family: Helvetica, sans-serif;
+}
+
+#missingPokemon {
+  font: bold;
+  display: none;
+  justify-content: center;
+  background-color: #cc5856;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+section {
+  height: 400px;
+  width: auto;
+}
+
+h1 {
+  font-size: 30px;
+  color: #67595e;
+}
+
+p {
+  font-size: 18px;
+}
+
+#title {
+  text-align: center;
+}
+
+#pokemonSprite {
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border-color: #67595e;
+  padding: 10px;
+}
+
+button {
+  background-color: #ef8300;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+button:active {
+  opacity: 90%;
+}
